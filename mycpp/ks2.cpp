@@ -20,5 +20,23 @@ int main(){
     cout<<"The value of a-- is: "<<a--<<endl;
     cout<<"The value of ++a is: "<<++a<<endl;
     cout<<"The value of --a is: "<<--a<<endl;   
+
+    // Assignment operators --> used to assign values to variables
+    // int x=3, y=4;
+    // char c='a';
+
+    // comparison operators --> used to compare two values
+    cout<<"The value of a==b is: "<<(a==b)<<endl;   
+    cout<<"The value of a!=b is: "<<(a!=b)<<endl;   
+    cout<<"The value of a>b is: "<<(a>b)<<endl;   
+    cout<<"The value of a<b is: "<<(a<b)<<endl;   
+    cout<<"The value of a>=b is: "<<(a>=b)<<endl;   
+    cout<<"The value of a<=b is: "<<(a<=b)<<endl; 
+    
+    // logical operators --> used to combine conditional statements
+    cout<<"The value of logical and operator ((a==b) && (a<b)) is: "<<((a==b) && (a<b))<<endl;
+    cout<<"The value of logical or operator ((a==b) || (a<b)) is: "<<((a==b) || (a<b))<<endl;   
+    cout<<"The value of logical not operator (!(a==b)) is: "<<(!(a==b))<<endl;
+
     return 0;
 }
