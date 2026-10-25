@@ -7,6 +7,18 @@
 using namespace std; // this line means that we are using the standard namespace
 
 int main(){
-    cout<<"Hello, World!";
+    int a=4, b=5;
+    cout<<"Operator in c++"<<endl;
+    cout<<"Following are the types of operators in c++"<<endl;
+    // Arithmetic operators
+    cout<<"The value of a+b is: "<<a+b<<endl;
+    cout<<"The value of a-b is: "<<a-b<<endl;
+    cout<<"The value of a*b is: "<<a*b<<endl;
+    cout<<"The value of a/b is: "<<a/b<<endl;
+    cout<<"The value of a%b is: "<<a%b<<endl;
+    cout<<"The value of a++ is: "<<a++<<endl;
+    cout<<"The value of a-- is: "<<a--<<endl;
+    cout<<"The value of ++a is: "<<++a<<endl;
+    cout<<"The value of --a is: "<<--a<<endl;   
     return 0;
 }
