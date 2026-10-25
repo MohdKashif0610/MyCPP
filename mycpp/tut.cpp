@@ -3,6 +3,7 @@ using namespace std;
 int glo=10; //global variable
 void sum(){
     int a;
+    cout<<glo;
 }
 
 int main()
