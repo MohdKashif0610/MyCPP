@@ -26,10 +26,15 @@ int main(){
     // cout<<"The size of 34.4L is: "<<sizeof(34.4L)<<endl;
 
     // ******Reference variables in c++*******
-    float x= 455;
-    float & y= x; // y is a reference variable which refers to x
-    cout<<x<<endl;
-    cout<<y<<endl;
+    // float x= 455;
+    // float & y= x; // y is a reference variable which refers to x
+    // cout<<x<<endl;
+    // cout<<y<<endl;
+
+    // *****Typecasting in c++*******
+    int a=45;
+    cout<<"the value of a is "<<a;
+    cout<<"the value of a is "<<
 
 
     return 0;
