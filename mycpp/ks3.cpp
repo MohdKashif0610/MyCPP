@@ -38,6 +38,11 @@ int main(){
     cout<<"the value of b is "<<(int)b; // typecasting b to int
     cout<<"the value of b is "<<int(b); // typecasting b to int
     cout<<"the value of a is "<<float(a)<<endl;
+    int c = int (b);
+
+    cout<<"the expression is "<<a + b<<endl; 
+    cout<<"the expression is "<<a + int(b)<<endl; 
+    cout<<"the expression is "<<a + (int)b<<endl; 
 
     return 0;
 }
