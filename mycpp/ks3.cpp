@@ -33,9 +33,10 @@ int main(){
 
     // *****Typecasting in c++*******
     int a=45;
+    float b= 45.46;
     cout<<"the value of a is "<<a;
-    cout<<"the value of a is "<<
-
+    cout<<"the value of a is "<<(float)a; // typecasting a to float
+    cout<<"the value of b is "<<(int)b; // typecasting b to int
 
     return 0;
 }
