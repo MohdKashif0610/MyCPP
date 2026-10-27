@@ -26,7 +26,8 @@ int main(){
 
     // operator precedence
     int a =3, b=4;
-    int c= a*5+b;
+    // int c= (a*5)+b;
+    
     cout<<c;
 
     return 0;
