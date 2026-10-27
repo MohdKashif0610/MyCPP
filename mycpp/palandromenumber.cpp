@@ -11,6 +11,14 @@ int main(){
     n=n/10;
     c=n;
     rev=100*a+10*b+1*c;
+    if(rev==m)
+    {
+        cout<<"palandrome number";
+    }
+    else
+    {
+        cout<<"not palandrome number";
+    }
 
 
 }
