@@ -17,4 +17,5 @@ int main(){
     else{
         cout<<c<<" is the greatest number";
     }
+    return 0;
 }
