@@ -21,5 +21,5 @@ int main(){
     {
         cout<<" not Arnstrong number";
     }
-    return o;
+    return 0;
 }
