@@ -19,6 +19,4 @@ int main(){
     {
         cout<<"not palandrome number";
     }
-
-
 }
