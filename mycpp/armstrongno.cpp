@@ -13,5 +13,13 @@ int main(){
     n=n/10;
     d=n;
     sum=pow(a,4)+pow(b,4)+pow(c,4)+pow(d,4)
-    if
+    if(sum==m)
+    {
+        cout<<"Armstrong number";
+    }
+    else
+    {
+        cout<<" not Arnstrong number";
+    }
+    return o;
 }
