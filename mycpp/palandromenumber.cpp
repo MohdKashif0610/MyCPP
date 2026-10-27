@@ -10,5 +10,7 @@ int main(){
     b=n%10;
     n=n/10;
     c=n;
-    rev
+    rev=100*a+10*b+1*c;
+
+
 }
