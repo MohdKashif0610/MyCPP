@@ -14,7 +14,7 @@ int main(){
     // // b=34; // this will cause an error because b is a constant variable
     
     // ******manipulator in c++******
-    // int a= 3, b= 4 , c= 45;
+    // int a= 3, b= 47 , c= 345;
     // cout<<"the value of a without setw is : "<<a<<endl;
     // cout<<"the value of b without setw is : "<<b<<endl;
     // cout<<"the value of c without setw is : "<<c<<endl;    
