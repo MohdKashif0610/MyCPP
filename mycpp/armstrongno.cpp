@@ -1,1 +1,3 @@
-#include<iostrem>
+#include<iostream>
+using namespace std;
+
