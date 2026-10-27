@@ -12,7 +12,8 @@ int main(){
     c=n%10;
     n=n/10;
     d=n;
-    sum=pow(a,4)+pow(b,4)+pow(c,4)+pow(d,4)
+    sum=pow(a,4)+pow(b,4)+pow(c,4)+pow(d,4);
+    
     if(sum==m)
     {
         cout<<"Armstrong number";
