@@ -24,7 +24,10 @@ int main(){
     // cout<<"the value of c is : "<<setw(4)<<c<<endl;    
 
 
-
+    // operator precedence
+    int a =3, b=4;
+    int c= a*5+b;
+    cout<<c;
 
     return 0;
 }
