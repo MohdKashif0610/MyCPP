@@ -45,4 +45,6 @@ int main(){
     break;
 
     }
+
+    cout<<"Done with switch case";
 }
