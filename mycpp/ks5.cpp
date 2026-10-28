@@ -6,22 +6,41 @@ int main(){
     int age;
     cout<<"tell me your age"<<endl;
     cin>>age;
-    if((age<18) && (age>0))
-    {
-        cout<<"You can not come to my party";
-    }
-    else if(age==18)
-    {
-        cout<<"You are a kid and you will get a kid pass to the party"<<endl;
-    }
-    else if(age<1)
-    {
-        cout<<"you are not yet born"<<endl;
-    }
-    else
-    {
-        cout<<"You are come to my party";
-    }
 
-    return 0;
+    // selection control structure: if else-if else ladder
+    // if((age<18) && (age>0))
+    // {
+    //     cout<<"You can not come to my party";
+    // }
+    // else if(age==18)
+    // {
+    //     cout<<"You are a kid and you will get a kid pass to the party"<<endl;
+    // }
+    // else if(age<1)
+    // {
+    //     cout<<"you are not yet born"<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"You are come to my party";
+    // }
+
+    // selection control structure: switch case statements
+    switch (age)
+    {
+    case 18:
+    cout<<"You are 18"<<endl;
+    break;
+    case 2:
+    cout<<"you are 2"<<endl;
+    case 22:
+    break:
+    cout<<"you are 22"<<endl;
+    break:
+
+    default:
+    cout<<"No special cases"<<endl;
+    break:
+    
+    }
 }
