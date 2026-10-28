@@ -31,16 +31,18 @@ int main(){
     case 18:
     cout<<"You are 18"<<endl;
     break;
+
     case 2:
     cout<<"you are 2"<<endl;
+    break;
+
     case 22:
-    break:
     cout<<"you are 22"<<endl;
-    break:
+    break;
 
     default:
     cout<<"No special cases"<<endl;
-    break:
-    
+    break;
+
     }
 }
