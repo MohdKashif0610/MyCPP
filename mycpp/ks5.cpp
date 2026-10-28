@@ -10,6 +10,10 @@ int main(){
     {
         cout<<"You can not come to my party";
     }
+    else
+    {
+        cout<<"You are come to my party";
+    }
 
     return 0;
 }
