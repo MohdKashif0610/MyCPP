@@ -60,5 +60,14 @@ int main(){
     // {
     //    c++ statement;
     // }while(condition);
+
+    // Printing 1 to 40 using do-while loop
+    int i=1;
+    do{
+        cout<<i<<endl;
+        i++;
+    }while(false);
+
+    return 0;
     
 }
