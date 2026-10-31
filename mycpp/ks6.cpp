@@ -47,10 +47,18 @@ int main(){
     // }
 
     // example is of infinite while loop
-    int i=1;
-    while (true)
-    {
-        cout<<i<<endl;
-        i++;
-    }
+    // int i=1;
+    // while (true)
+    // {
+    //     cout<<i<<endl;
+    //     i++;
+    // }
+
+    /*do while loop in c++*/
+    // syntax:
+    // do
+    // {
+    //    c++ statement;
+    // }while(condition);
+    
 }
