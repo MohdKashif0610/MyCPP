@@ -62,11 +62,18 @@ int main(){
     // }while(condition);
 
     // Printing 1 to 40 using do-while loop
-    int i=1;
+    // int i=1;
+    // do{
+    //     cout<<i<<endl;
+    //     i++;
+    // }while(false);
+    
+     int i=1;
     do{
         cout<<i<<endl;
         i++;
-    }while(false);
+    }while(true);
+
 
     return 0;
     
