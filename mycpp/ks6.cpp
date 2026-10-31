@@ -25,5 +25,10 @@ int main(){
     //    cout<<i<<endl;
     // }
 
-    
+    // example of infinite for loop
+    // for (int i=1; 34<=40; i++)
+    // {
+        /*code*/
+    // cout<<i<<endl;
+    // }
 }
