@@ -31,4 +31,13 @@ int main(){
         /*code*/
     // cout<<i<<endl;
     // }
+
+    /*While loop in c++*/
+    //  syntax:
+    // while(condition)
+    // {
+    //   c++ statement;
+    // }
+
+    
 }
