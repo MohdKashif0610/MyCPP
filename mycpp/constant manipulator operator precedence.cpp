@@ -14,21 +14,21 @@ int main(){
     // // b=34; // this will cause an error because b is a constant variable
     
     // ******manipulator in c++******
-    // int a= 3, b= 47 , c= 345;
-    // cout<<"the value of a without setw is : "<<a<<endl;
-    // cout<<"the value of b without setw is : "<<b<<endl;
-    // cout<<"the value of c without setw is : "<<c<<endl;    
+    int a= 3 , b= 47 , c= 345;
+    cout<<"the value of a without setw is : "<<a<<endl;
+    cout<<"the value of b without setw is : "<<b<<endl;
+    cout<<"the value of c without setw is : "<<c<<endl;    
 
-    // cout<<"the value of a is : "<<setw(4)<<a<<endl;    
-    // cout<<"the value of b is : "<<setw(4)<<b<<endl;    
-    // cout<<"the value of c is : "<<setw(4)<<c<<endl;    
+    cout<<"the value of a is : "<<setw(3)<<a<<endl;    
+    cout<<"the value of b is : "<<setw(3)<<b<<endl;    
+    cout<<"the value of c is : "<<setw(3)<<c<<endl;    
 
 
     // operator precedence
-    int a =3, b=4;
-    // int c= (a*5)+b;
-    int c =((((a*5)+b)-45)+67);
-    cout<<c;
+    // int a =3, b=4;
+    // // int c= (a*5)+b;
+    // int c =((((a*5)+b)-45)+67);
+    // cout<<c;
 
     return 0;
 }
